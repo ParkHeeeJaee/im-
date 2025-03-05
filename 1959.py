@@ -30,5 +30,6 @@ for tc in range(1, t+1):
         # 최댓값 갱신
         if val > max_val:
             max_val = val
-    
+            
+    # 형식에 맞게 출력
     print(f'#{tc} {max_val}')
